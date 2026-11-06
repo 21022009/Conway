@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "target": "ES2022",
+        "module": "ESNext",
+        "moduleResolution": "Bundler",
+        "lib": ["ES2022", "DOM"],
+        "types": ["matter-js"],
+        "strict": true,
+        "skipLibCheck": true,
+        "rootDir": "src",
+        "outDir": "public"
+    },
+    "files": [
+        "node_modules/p5/types/global.d.ts",
+        "src/game.ts"
+    ]
+}

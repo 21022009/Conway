@@ -1,0 +1,10 @@
+{
+    "extends": "../tsconfig.json",
+    "compilerOptions": {
+        "rootDir": ".",
+        "noEmit": true,
+        "moduleDetection": "force"
+    },
+    "files": ["../node_modules/p5/types/global.d.ts"],
+    "include": ["**/*.ts"]
+}

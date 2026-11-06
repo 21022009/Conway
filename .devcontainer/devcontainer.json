@@ -1,0 +1,22 @@
+{
+    "name": "TypeScript-Startprojekt",
+    "image": "mcr.microsoft.com/devcontainers/typescript-node:1-22-bookworm",
+    "forwardPorts": [5173],
+    "portsAttributes": {
+        "5173": {
+            "label": "Vorschau",
+            "onAutoForward": "openPreview"
+        }
+    },
+    "postCreateCommand": "npm install",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "esbenp.prettier-vscode"
+            ],
+            "settings": {
+                "editor.defaultFormatter": "esbenp.prettier-vscode"
+            }
+        }
+    }
+}

@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="de">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mein TypeScript-Spiel</title>
+        <style>
+            html,
+            body {
+                margin: 0;
+                min-height: 100%;
+            }
+
+            body {
+                display: grid;
+                place-items: center;
+                background: #18212f;
+            }
+
+            canvas {
+                max-width: 100%;
+                height: auto !important;
+                box-shadow: 0 1rem 3rem rgb(0 0 0 / 35%);
+            }
+        </style>
+    </head>
+    <body>
+        <script src="./lib/p5.min.js"></script>
+        <script src="./lib/matter.min.js"></script>
+        <script src="./game.js"></script>
+    </body>
+</html>
